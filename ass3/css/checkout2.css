@@ -1,6 +1,10 @@
 h2{
-    color:#838585 ;font-family:AppleMyungjo;font-size:30px;
-    text-align: center;margin:30px 10px 10px 10px; padding-top:40px;
+    color:#838585 ;
+    font-family:AppleMyungjo;
+    font-size:30px;
+    text-align: center;
+    margin:30px 10px 10px 10px; 
+    padding-top:40px;
 }
 .circle{
     display: flex;
@@ -10,7 +14,7 @@ h2{
 }
 .c1{
     padding: 0%;
-   margin-top: 20px;
+    margin-top: 20px;
 }
 .c2{
     padding: 0%;
@@ -31,6 +35,7 @@ h2{
 }
 .image{
     margin-right: 60px;
+    margin-left: 60px;
 }
 .name{
     font-size:18px ;
@@ -83,7 +88,8 @@ input{
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    font-family:AppleMyungjo;font-size:20px;
+    font-family:AppleMyungjo;
+    font-size:20px;
     justify-content:center;
     margin:29px 10px;
 }

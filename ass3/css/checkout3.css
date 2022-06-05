@@ -1,6 +1,10 @@
 h2{
-    color:#838585 ;font-family:AppleMyungjo;font-size:30px;
-    text-align: center;margin:30px 10px 10px 10px; padding-top:40px;
+    color:#838585 ;
+    font-family:AppleMyungjo;
+    font-size:30px;
+    text-align:center;
+    margin:30px 10px 10px 10px; 
+    padding-top:40px;
 }
 .circle{
     display: flex;
@@ -31,6 +35,7 @@ h2{
 }
 .image{
     margin-right: 60px;
+    margin-right: 60px;
 }
 .name{
     font-size:18px ;
@@ -55,7 +60,7 @@ h2{
     background-color: #f7f7f7;
     border: 0.1rem solid #f7f7f7;
     position:relative;
-    height:800px;
+    height:850px;
     width: 700px;
     padding-left: 30px;
 }
@@ -99,7 +104,8 @@ input{
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    font-family:AppleMyungjo;font-size:20px;
+    font-family:AppleMyungjo;
+    font-size:20px;
     justify-content:center;
     margin:29px 10px;
 }
