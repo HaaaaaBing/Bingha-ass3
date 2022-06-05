@@ -1,0 +1,106 @@
+h2{
+    color:#838585 ;font-family:AppleMyungjo;font-size:30px;
+    text-align: center;margin:30px; padding-top:40px;
+}
+.choose{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:20px 20%;
+}
+.a{
+    color: black ;
+    font-size: 18px;
+    flex-flow: row;
+}
+select{
+    border-radius: 0.5rem ;
+    background-color:#F7F7F7;
+    height: 25px;
+    width: 150px;
+    font-size:16px;
+}
+.b{
+    color: black  ;
+    font-size: 18px;
+    flex-flow: row;
+}
+.product{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin:20px 15%;
+    justify-content:space-between;
+}
+.p1{
+    margin: 20px 5px;
+}
+.p2{
+    margin: 20px 5px;
+}
+.p3{
+    margin: 20px 5px;
+}
+.p4{
+    margin: 20px 5px;
+}
+.p5{
+    margin: 20px 5px;
+}
+.p6{
+    margin: 20px 5px;
+}
+.name{
+    margin-top: 10px;
+    line-height: 20px;
+}
+.tree{
+    color:#838585 ;
+}
+
+.price{
+    line-height: 40px;
+}
+.add{
+      padding: 5px;
+      margin-top:5px;
+      text-align: center;
+      border-radius:100px;
+      border:.1rem solid #A2A77D;
+      background-color:#A2A77D ;
+      color:white;
+      font: 20px; 
+}
+.more{
+     padding: 5px;
+     margin-left: 60%;
+      text-align: center;
+      border-radius:100px;
+      border:.1rem solid #A2A77D;
+      color:#A2A77D;
+      font: 20px; 
+}
+.page{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.page a{
+    display: inline-block;
+    padding: 6px 8px;
+    border: 1px  solid #A2A77D;
+    border-radius: 2px;
+    color:#A2A77D ;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.page span{
+    margin-right: 5px;
+}
+.footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #A2A77D;
+    text-align: center;
+}

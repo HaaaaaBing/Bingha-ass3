@@ -1,0 +1,116 @@
+h2{
+    color:#838585 ;font-family:AppleMyungjo;font-size:30px;
+    text-align: center;margin:30px 10px 10px 10px; padding-top:40px;
+}
+.circle{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.c1{
+    padding: 0%;
+   margin-top: 20px;
+}
+.c2{
+    padding: 0%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.c3{
+    padding: 0%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.product{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 9px;
+}
+.image{
+    margin-right: 60px;
+}
+.name{
+    font-size:18px ;
+    margin-top:15px;
+    text-align: center;
+}
+.oak{
+    font-size:16px ;
+    margin-top:5px;
+}
+.quanlity{
+    font-size:16px ;
+    margin: 1px;
+}
+.price{
+    font-size:25px ;
+    margin-top: 5px;
+    text-align: right;
+}
+.content{
+    color: #838585; 
+    background-color: #f7f7f7;
+    border: 0.1rem solid #f7f7f7;
+    position:relative;
+    height:500px;
+    width: 700px;
+    padding-left: 30px;
+}
+.content form p input{
+    width: 200px;
+    border-style:none;
+}
+.ADDRESS{
+    font-size: 20px;
+    margin: 45px;
+    text-align: center;
+    
+}
+p{
+   font-size: 20px;
+}
+input{
+    margin-top: 15px;
+    line-height: 30px;
+    font-family:AppleMyungjo;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.button{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    font-family:AppleMyungjo;font-size:20px;
+    justify-content:center;
+    margin:29px 10px;
+}
+.back{
+    color: #A2A77D;
+    font-size:18px;
+    background-color: #F7F7F7;
+    display: inline-block;
+    margin: 10px;
+    border: #A2A77D solid;
+    border-radius: 5rem;
+    background:#FAFAFA;
+    padding:.9rem 9rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.next{
+    color: #F7F7F7;
+    font-size:18px;
+    background-color: #A2A77D;
+    display: inline-block;
+    margin: 10px;
+    border: #A2A77D solid;
+    border-radius: 5rem;
+    background:#A2A77D;
+    padding:.9rem 9rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+

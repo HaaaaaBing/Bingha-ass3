@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: AppleMyungjo;
+    
+}
+nav{
+    background-color:#A2A77D;
+    height: 205px;
+    width: 100%;
+
+}
+.timber{
+    width: 500px;
+    margin-left: 300px;
+}
+.logo{
+    padding: 0 ;
+}
+nav ul{
+    float: right;
+    margin-right:10%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 30px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    transition: 1s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+}
+#check{
+    display: none;
+}
+.footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #A2A77D;
+    text-align: center;
+}
+
+
+
+@media (max-width:925px){
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size:16px; 
+    }
+}
+@media (max-width:858px){
+.checkbtn{
+    display: block;
+    margin: 30px;
+}
+ul{
+ position: fixed;
+    width: 100%;
+    height:100vh;
+    background: #A2A77D;
+    top:80px;
+    left:-100%;
+    text-align: center;
+    transition: all 1s;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background:none;
+    color: white ;
+}
+#check:checked~ul{
+    left: 0;
+}
+}
+

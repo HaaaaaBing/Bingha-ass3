@@ -1,0 +1,105 @@
+
+h2{
+    color:#838585 ;font-family:AppleMyungjo;font-size:30px;
+    text-align: center;margin:30px; padding-top:40px;
+}
+.product{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    margin:20px 25%;
+    padding-bottom: 5px;
+    border-bottom:0.1rem dashed rgba(0,0,0,.1);
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+}
+.i1{
+    margin-top: 5%;
+    font-size: 22px;
+}
+.i2{
+    margin-top: 5%;
+    font-size: 18px;
+    color: #838585;
+}
+.i3{
+    margin-top: 10%;
+    font-size: 22px;
+}
+.Quanlity{
+    display: flex;
+    flex-flow: row;
+    font-size: 20px;
+    margin-top: 5px;
+    justify-content: right;
+}
+.one{
+    margin-bottom: 10px;
+}
+.minus{
+    margin-bottom: 10px;
+    border-radius: 0.8rem;
+    border:.1rem solid #A2A77D;
+    background-color:white ;
+}
+.minus:hover,.minus.on{
+    background-color:rgba(0,0,0,.1) ;
+    border:1px solid #A2A77D;
+}
+.plus{
+    margin-bottom: 10px;
+    border-radius: 0.8rem;
+    border:.1rem solid #A2A77D;
+    background-color:white ; 
+}
+.plus:hover,.plus.on{
+    background-color:rgba(0,0,0,.1) ;
+    border:1px solid #A2A77D;
+}
+.x{
+    padding-bottom:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 100%;
+}
+h3{
+    color:black ;font-family:AppleMyungjo;font-size:24px;
+    text-align: center;
+    margin:10px; padding-top:20px;
+}
+.button{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    font-family:AppleMyungjo;font-size:20px;
+    justify-content:center;
+    margin:10px 25%;
+}
+.back{
+    color: #A2A77D;font-family:AppleMyungjo;font-size:18px;
+    background-color: #F7F7F7;
+    display: inline-block;
+    margin: 10px;
+    border: #A2A77D solid;
+    border-radius: 5rem;
+    background:#FAFAFA;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.checkout{
+    color: #F7F7F7;font-family:AppleMyungjo;font-size:18px;
+    background-color:#A2A77D ;
+    display: inline-block;
+    margin: 10px;
+    border: #A2A77D solid;
+    border-radius: 5rem;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
