@@ -1,7 +1,7 @@
-.h{
-    color:black ;font-family:AppleMyungj;font:80px; 
-    text-align: center;
-    text-decoration: underline;   
+span{
+    font-family:AppleMyungjo ;
+    font-size: 30px;
+    font-weight: bold;
 }
 .sidebar-container{
     display: flex;
